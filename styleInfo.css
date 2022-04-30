@@ -1,0 +1,102 @@
+body {
+    overflow: hidden;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+html, body {
+    margin:0;
+    padding:0;
+}
+.botnav {
+    background-color: #C2DBD7;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: right;
+    font-family: 'Poppins', sans-serif;
+    padding-right: 0%;
+}
+
+.botnav img {
+    max-width: 5%;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.topnav {
+    background-color: #C2DBD7;
+    overflow: hidden;
+    text-align: right;
+    font-size: 20pt;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 1%;
+    
+}
+
+.topnav a:hover {
+    color: rgba(0, 0, 0, 0.4);
+
+}
+
+.topnav img {
+    max-width: 10%;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    padding-top: 20px;
+    padding-left: 50px;
+}
+.mainimg {
+    width: 100%;
+    height: 1010px;
+    font-size: 50pt;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 100px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    background: rgb(213,234,222);
+    background: linear-gradient(180deg, rgba(213,234,222,1) 0%, rgba(226,240,233,1) 56%, rgba(246,250,249,1) 100%);
+}
+.mainimg p {
+    width: 100%;
+    height: 1000px;
+    font-size: 25pt;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 100px;
+    padding-top: 0;
+}
+.mainimg button:hover {
+    background-color: rgba(225, 111, 56, 0.8);
+    border: none;
+    color: rgba(194, 219, 215, 1);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 50pt;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50px;
+    transition: all 0.15s ease 0s;
+}
+nav {
+    padding-right: 20px;
+    margin-right: 50px;
+    padding-top: 30px;
+    text-decoration-skip: none;
+    font-family: 'Poppins', sans-serif;
+}
+a {
+    text-decoration: none;
+    color: #000000;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0; 
+    margin: 0;
+}
